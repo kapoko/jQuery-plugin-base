@@ -15,7 +15,7 @@
 
 		// Initialization
 		this.init = function() {
-			alert('Hello World!');
+			console.log('Hello World!');
 		};
 
 		var privateFunction = function() {
@@ -24,8 +24,7 @@
    	};
 
    	$.fn.pluginName = function(options) {
-       	return this.each(function()
-       	{
+       	return this.each(function() {
 			var element = $(this);
 
 			// Check if instance of plugin already exists on element
